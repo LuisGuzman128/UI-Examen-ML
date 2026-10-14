@@ -36,22 +36,22 @@ Numero de lista: 27
 (6, 3)
 
 2.4 TIPOS DE DATOS
-Mascota      str
-Especie      str
-Edad       int64
+Mascota    object
+Especie    object
+Edad        int64
 dtype: object
 
 2.5 INFORMACIÓN GENERAL
 <class 'pandas.DataFrame'>
 RangeIndex: 6 entries, 0 to 5
 Data columns (total 3 columns):
- #   Column   Non-Null Count  Dtype
----  ------   --------------  -----
- 0   Mascota  6 non-null      str  
- 1   Especie  6 non-null      str  
- 2   Edad     6 non-null      int64
-dtypes: int64(1), str(2)
-memory usage: 276.0 bytes
+ #   Column   Non-Null Count  Dtype 
+---  ------   --------------  ----- 
+ 0   Mascota  6 non-null      object
+ 1   Especie  6 non-null      object
+ 2   Edad     6 non-null      int64 
+dtypes: int64(1), object(2)
+memory usage: 276.0+ bytes
 
 3. ESTADÍSTICAS DE EDAD
 count    6.000000
@@ -85,4 +85,5 @@ Firulais   Perro     3
    Michi    Gato     2
    Rocky   Perro     1
 ```
-programa realizado por Axel Guzman 0070
+
+Programa realizado por Axel Guzman 0070
