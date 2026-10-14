@@ -1,11 +1,12 @@
 # EXAMEN DE MACHINE LEARNING - PANDAS
-**Alumno:** Luis Axel Guzman Martinez
-**NC:** 0070
-**Numero de lista:** 27
+Alumno: Luis Axel Guzman Martinez
+NC: 0070
+Numero de lista: 27
 
 ---
 
-## 1. DATAFRAME DE MASCOTAS
+1. DATAFRAME DE MASCOTAS
+```
     Mascota Especie  Edad
 0  Firulais   Perro     3
 1     Michi    Gato     2
@@ -13,29 +14,34 @@
 3     Rocky   Perro     1
 4      Coco    Loro     8
 5    Pelusa    Gato     4
+```
 
-## 2. INFORMACIÓN DEL DATAFRAME
+2. INFORMACIÓN DEL DATAFRAME
 
-### 2.1 PRIMERAS FILAS
+2.1 PRIMERAS FILAS
+```
     Mascota Especie  Edad
 0  Firulais   Perro     3
 1     Michi    Gato     2
+```
 
-### 2.2 ÚLTIMAS FILAS
+2.2 ÚLTIMAS FILAS
+```
   Mascota Especie  Edad
 4    Coco    Loro     8
 5  Pelusa    Gato     4
+```
 
-### 2.3 DIMENSIONES (Filas, Columnas)
+2.3 DIMENSIONES (Filas, Columnas)
 (6, 3)
 
-### 2.4 TIPOS DE DATOS
+2.4 TIPOS DE DATOS
 Mascota      str
 Especie      str
 Edad       int64
 dtype: object
 
-### 2.5 INFORMACIÓN GENERAL
+2.5 INFORMACIÓN GENERAL
 <class 'pandas.DataFrame'>
 RangeIndex: 6 entries, 0 to 5
 Data columns (total 3 columns):
@@ -47,7 +53,7 @@ Data columns (total 3 columns):
 dtypes: int64(1), str(2)
 memory usage: 276.0 bytes
 
-## 3. ESTADÍSTICAS DE EDAD
+3. ESTADÍSTICAS DE EDAD
 count    6.000000
 mean     3.833333
 std      2.483277
@@ -58,7 +64,8 @@ min      1.000000
 max      8.000000
 Name: Edad, dtype: float64
 
-## 4. ORDEN ASCENDENTE POR EDAD
+4. ORDEN ASCENDENTE POR EDAD
+```
  Mascota Especie  Edad
    Rocky   Perro     1
    Michi    Gato     2
@@ -66,8 +73,10 @@ Firulais   Perro     3
   Pelusa    Gato     4
     Luna   Perro     5
     Coco    Loro     8
+```
 
-## 5. ORDEN DESCENDENTE POR EDAD
+5. ORDEN DESCENDENTE POR EDAD
+```
  Mascota Especie  Edad
     Coco    Loro     8
     Luna   Perro     5
@@ -75,3 +84,4 @@ Firulais   Perro     3
 Firulais   Perro     3
    Michi    Gato     2
    Rocky   Perro     1
+```
