@@ -85,3 +85,4 @@ Firulais   Perro     3
    Michi    Gato     2
    Rocky   Perro     1
 ```
+programa realizado por Axel Guzman 0070
